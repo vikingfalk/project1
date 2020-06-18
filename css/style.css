@@ -1,0 +1,49 @@
+* {
+    border-style: border-box;
+}
+
+body {
+    background-color: #e0ac9d;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    height: 200px;
+    width: 100%;
+}
+
+.navbar {
+    height: 50px;
+}
+
+.navbar ul {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #a37774;
+}
+
+.navbar a:visited {
+    color: #a37774;
+}
+
+.navbar li {
+    float: left;
+    text-align: center;
+}
+
+#main-navbar {
+    background: #484a47;
+}
+
+#main-navbar li {
+    border: 1px solid #333;
+}
