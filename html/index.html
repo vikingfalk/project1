@@ -5,34 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project1</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <img src="" alt="Header image">
-        <form id="search-bar">Sök</form>
+
+    <header class="header">
+        <div class="container">
+            <div id="brand">            
+                <h1>Vikings Recept</h1>
+                <p>-Goda recept på nätet-</p>
+            </div>
+            <nav class="navbar">
+                <div class="navbar-container-3">
+                    <ul class="navbar-menu">
+                        <li><a href="#" class="navbar-menu-button">
+                            <i class="material-icons md-dark">home</i>Hem</a></li>
+                        <li><a href="#" class="navbar-menu-button">
+                            <i class="material-icons md-dark">view_list</i>Kategorier</a></li>
+                        <li><a href="#" class="navbar-menu-button">
+                            <i class="material-icons md-dark">feedback</i>Tips</a></li>
+                </ul>
+                </div>
+                <div class="navbar-container-3">
+                    <div class="search-bar">
+                        <i class="material-icons md-dark">search</i>
+                        <input type="text" class="" maxlength="50" placeholder="Sök efter recept">
+                    </div>
+                </div>
+                <div class="navbar-container-3">
+                    <ul class="navbar-menu">
+                        <li><a href="#" class="navbar-menu-button">
+                            <i class="material-icons md-dark">account_box</i>Logga in</a></li>
+                        <li><a href="#" class="navbar-menu-button">
+                            <i class="material-icons md-dark">help</i>Hjälp</a></li>
+                    </ul>
+                </div><!--navbar-container-->
+            </nav><!--navbar-->
+        </div><!--container-->
     </header>
 
-    <nav class="navbar" id="main-navbar">
-        <ul>
-            <li><a href="#">Hem</a></li>
-            <li><a href="#">Kategorier</a></li>
-            <li><a href="#">Tips<a/></li>
-        </ul>
-    </nav>
-
-    <div class="container">
-        <h2>Dagens recept</h2>
-
-        <div class="recipe-card">
-            <img src="" alt="Dish image">
-            <h3 class="recipe-header">Rättens namn</h3>
-            <p class="ingredients">Ingredienser</p>
-            <p class="instructions">Instruktioner</p>
-        </div>
-    </div>
+    <section class="main-content">
+        <div class="container">
+            <div class="recipe-card">
+                <img src="../img/dish1.jpg" alt="Dish image">
+                <section class="recipe-about">
+                    <h3 class="recipe-name">Köttbullar med potatismos</h3>
+                    <p class="recipe-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quae eos doloremque veniam ducimus minus libero quod voluptas velit suscipit obcaecati excepturi tempore nulla dolore iste beatae, hic tempora ab?</p>
+                </section>
+                <p class="recipe-instructions">Instruktioner - Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius culpa vitae magnam at, ipsam saepe? Dignissimos, corporis! Fuga officiis id molestias impedit earum nesciunt facere. Dicta ex harum reprehenderit perspiciatis.</p>
+                <p class="recipe-ingredients">Ingredienser - Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deserunt eum harum, tempore modi autem! Fugiat accusantium earum, doloremque ea reprehenderit quis quas, optio numquam sapiente dolore, maxime facilis asperiores!</p>
+            </div>
+        </div><!--container-->
+    </section>
 
     <footer>
         <p>Footer</p>
     </footer>
+
 </body>
 </html>
