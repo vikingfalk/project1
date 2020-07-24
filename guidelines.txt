@@ -1,0 +1,28 @@
+Objective:
+-Build and deploy a recipe website
+
+Purpose:
+-Learning
+-Showing skills
+
+Technology:
+-HTML, CSS, JS (no frameworks), fetch API
+
+---------------------------------------------
+
+Design:
+-responsive design
+-color palette
+-wireframes/mockups
+
+Functions:
+-search for recipes/tags
+-add new recipes via admin
+
+Content:
+-landing page
+-navbar
+-mobile menu button
+-categories
+-single page recipe
+-admin page
