@@ -7,7 +7,8 @@ const navbarSearch = document.querySelector('.mobile-nav-search');
 const navAccount = document.querySelector('#nav-account');
 const loginMenu = document.querySelector('.login-menu');
 const cancelButton = document.querySelector('.cancel-button');
-const viewportHeight = window.innerHeight;
+const html = document.querySelector('html');
+const viewportHeight = html.clientHeight;
 const body = document.querySelector('body');
 
 document.querySelector('body').style.backgroundSize = "auto " + viewportHeight + "px";
