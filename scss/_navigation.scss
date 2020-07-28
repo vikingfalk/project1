@@ -148,6 +148,103 @@
     }
 }
 
+.login-menu {
+    position: fixed;
+    background-color: rgba(0,0,0,.8);
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &.active {
+        display: flex;
+    }
+
+    .account-links {
+        display: flex;
+        justify-content: space-between;
+        width: 17rem;
+
+        a {
+            color: $secondary-color;
+        }
+    }
+
+    .login-button {
+        background-color: $detail-color;
+        padding: .5rem;
+        border-radius: 10px;
+        text-decoration: none;
+        color: $secondary-color;
+        margin-bottom: 2rem;
+
+        &:visited {
+            color: $secondary-color;
+        }
+    }
+
+    .login-details {
+        display: flex;
+        flex-direction: column;
+
+        input {
+            background-color: $secondary-color;
+            border-radius: 50px;
+            font-size: 1.4rem;
+            padding: .5rem 1rem;
+            width: 15rem;
+            margin: auto;
+            border: none;
+
+            &:first-child {
+                margin-bottom: .5rem;
+            }
+
+            &:last-child {
+                margin-bottom: 1rem;
+            }
+
+            &:focus {
+                outline: none;
+            }
+
+            &::placeholder {
+                opacity: .8;
+            }
+        }
+    }
+
+    .cancel-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 1.8rem;
+        height: 1.3rem;
+        position: fixed;
+        top: 1.2rem;
+        right: 1.2rem;
+
+        .bar {
+            height: 3px;
+            width: 100%;
+            background-color: $secondary-color;
+            border-radius: 10px;
+
+            &:first-child {
+                transform: rotate(-45deg) translate(-6px, 7px);
+            }
+
+            &:last-child {
+                transform: rotate(45deg) translate(-6px, -7px);
+            }
+        }
+    }
+}
+
 @media (min-width: 480px) {
     .mobile-nav-search.transition {
         width: 60%;
