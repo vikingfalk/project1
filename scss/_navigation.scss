@@ -54,11 +54,6 @@
         &-button:visited {
             color: $secondary-color;
         }
-
-        &-button:hover {
-            background-color: $secondary-color;
-            color: $primary-color;
-        }
     }
 
     #log-in {
@@ -293,6 +288,11 @@
         &-menu {
             display: flex;
             flex-direction: row;
+        }
+
+        &-button:hover {
+            background-color: $secondary-color;
+            color: $primary-color;
         }
 
         #log-in {
