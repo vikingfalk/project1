@@ -150,7 +150,7 @@
         }
 
         #search-button {
-            display: none;
+            // display: none;
 
             &.active {
                 display: flex;
@@ -258,16 +258,14 @@
 
 .brand {
     font-family: Courgette, Arial;
-    color: rgb(255, 255, 255);
-    // display: none;
+    color: $secondary-color;
     text-decoration: none;
 
 
     h1 {
         font-size: 1.5rem;
-        // letter-spacing: .2rem;
         text-shadow: 0px 0px 5px rgba(0,0,0,.8);
-        line-height: .1rem;
+        line-height: 1.5rem;
 
         i {
             font-size: 24px;
