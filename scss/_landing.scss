@@ -5,6 +5,17 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        .extra-text {
+            font-family: Caveat;
+            color: $secondary-color;
+            font-size: 2.5rem;
+            margin-top: 4rem;
+            text-shadow: 0 0 5px rgba(0,0,0,1);
+            line-height: 2.5rem;
+            text-align: center;
+            transform: rotate(-2deg);
+        }
     
         .search-bar {
             background-color: $secondary-color;
@@ -15,7 +26,7 @@
             box-shadow:  0 0 10px rgba(0,0,0,1);
             padding: .3rem .5rem .4rem 0;
             opacity: 80%;
-            margin-top: 13rem;
+            margin-top: 4rem;
         
             i {
                 margin: .2rem .5rem 0 .8rem;
