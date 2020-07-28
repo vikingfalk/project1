@@ -7,6 +7,10 @@ const navbarSearch = document.querySelector('.mobile-nav-search');
 const navAccount = document.querySelector('#nav-account');
 const loginMenu = document.querySelector('.login-menu');
 const cancelButton = document.querySelector('.cancel-button');
+const viewportHeight = window.innerHeight;
+const body = document.querySelector('body');
+
+body.style.height = viewportHeight;
 
 
 //mobilvy kontoknapp
