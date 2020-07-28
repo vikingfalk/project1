@@ -10,7 +10,8 @@ const cancelButton = document.querySelector('.cancel-button');
 const viewportHeight = window.innerHeight;
 const body = document.querySelector('body');
 
-body.style.height = viewportHeight;
+document.querySelector('body').style.backgroundSize = "auto " + viewportHeight + "px";
+console.log(viewportHeight);
 
 
 //mobilvy kontoknapp
