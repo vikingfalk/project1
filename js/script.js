@@ -14,15 +14,16 @@ const user = navigator.userAgent.toLowerCase();
 const isAndroid = user.indexOf("android") > -1 && user.indexOf("mobile") > -1;
 
 
+//fixa bakgrunden för android
 if (isAndroid) {
     document.querySelector('body').style.backgroundSize = "auto " + viewportHeight + "px";
 }
 
 
-
 //mobilvy kontoknapp
 navAccount.addEventListener('click', () => {
     loginMenu.classList.add('active')
+    navbarLinks.classList.remove('active')
 });
 
 cancelButton.addEventListener('click', () => {
@@ -50,6 +51,7 @@ searchButton.addEventListener('click', () => {
 
 searchButton.addEventListener('click', () => {
     navbarSearch.classList.toggle('transition');
+    navbarLinks.classList.remove('active')
 });
 
 searchCancel.addEventListener('click', () => {
