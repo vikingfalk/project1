@@ -8,11 +8,16 @@ const navAccount = document.querySelector('#nav-account');
 const loginMenu = document.querySelector('.login-menu');
 const cancelButton = document.querySelector('.cancel-button');
 const html = document.querySelector('html');
-const viewportHeight = html.clientHeight;
 const body = document.querySelector('body');
+const viewportHeight = html.clientHeight;
+const user = navigator.userAgent.toLowerCase();
+const isAndroid = user.indexOf("android") > -1 && user.indexOf("mobile") > -1;
 
-document.querySelector('body').style.backgroundSize = "auto " + viewportHeight + "px";
-console.log(viewportHeight);
+
+if (isAndroid) {
+    document.querySelector('body').style.backgroundSize = "auto " + viewportHeight + "px";
+}
+
 
 
 //mobilvy kontoknapp
