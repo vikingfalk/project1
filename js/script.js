@@ -14,10 +14,10 @@ const user = navigator.userAgent.toLowerCase();
 const isAndroid = user.indexOf("android") > -1 && user.indexOf("mobile") > -1;
 
 
-//fixa bakgrunden för android
-if (isAndroid) {
-    document.querySelector('body').style.backgroundSize = "auto " + (viewportHeight + 60) + "px";
-}
+// //fixa bakgrunden för android
+// if (isAndroid) {
+//     document.querySelector('body').style.backgroundSize = "auto " + (viewportHeight + 60) + "px";
+// }
 
 
 //mobilvy kontoknapp
