@@ -9,7 +9,7 @@ const loginMenu = document.querySelector('.login-menu');
 const cancelButton = document.querySelector('.cancel-button');
 const html = document.querySelector('html');
 const body = document.querySelector('body');
-const viewportHeight = html.clientHeight;
+const viewportHeight = window.outerHeight; //html.clientHeight
 const user = navigator.userAgent.toLowerCase();
 const isAndroid = user.indexOf("android") > -1 && user.indexOf("mobile") > -1;
 
