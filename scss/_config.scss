@@ -1,6 +1,7 @@
 $primary-color: #333;
 $secondary-color: rgb(245, 245, 245);
-$detail-color: #999;
+$dull-color: #999;
+$detail-color: #28ac28;
 
 * {
     box-sizing: border-box;
@@ -9,6 +10,7 @@ $detail-color: #999;
 }
 
 body {
+    background-color: rgb(240,240,240);
     color: #444;
     font-family: Oxygen, Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -20,15 +22,33 @@ body {
     margin: auto;
 }
 
-#background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: #222;
-    background: url('../img/bg-dark.jpg');
-    background-size: cover;
-    background-position: center center;
-    z-index: -1;
+.flex-wrap {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1500px) {
+    .container {
+        width: 60%;
+    }
 }

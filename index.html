@@ -12,39 +12,28 @@
 </head>
 
 <body>
-	<div id="background"></div>
 	<nav class="navbar">
 		<div class="container">
 			<div class="mobile-nav">
-				<a href="#" class="toggle-button">
-					<span class="bar"></span>
-					<span class="bar"></span>
-					<span class="bar"></span>
-				</a>
-				<a href="#" class="brand">
+				<a href="#" class="brand mobile">
 					<h1>
-						Vikings
-						<!-- <i class="material-icons">chrome_reader_mode</i> -->
-						Recept
+						Vikings Recept
 					</h1>
 				</a>
-				<div class="icon-links">
-					<a href="#" class="icon-link" id="search-button">
+				<div class="flex-wrap">
+					<a class="search-button">
 						<i class="material-icons">search</i>
 					</a>
-					<div class="mobile-nav-search">
-						<input type="text" class="" maxlength="30" />
-						<a href="#" id="search-cancel">
-							<i class="material-icons">cancel</i>
-						</a>
-					</div>
-					<a href="#" class="icon-link" id="nav-account">
-						<i class="material-icons">person</i>
+					<a href="#" class="toggle-button">
+						<span class="bar"></span>
+						<span class="bar"></span>
+						<span class="bar"></span>
 					</a>
 				</div>
 			</div>
+			<!--mobile nav-->
 			<div class="login-menu">
-				<a href="#" class="cancel-button">
+				<a class="cancel-button">
 					<span class="bar"></span>
 					<span class="bar"></span>
 				</a>
@@ -60,45 +49,80 @@
 					<a href="#">Registrera konto</a>
 				</div>
 			</div>
+			<!--login-menu-->
 			<div class="navbar-links">
+				<a href="#" class="brand w992">
+					<h1>
+						Vikings Recept
+					</h1>
+				</a>
 				<ul class="navbar-menu">
 					<li>
-						<a href="#" class="navbar-menu-button">
-							<i class="material-icons">home</i>Hem</a>
+						<a class="search-button w992">
+							<i class="material-icons">search</i>
+						</a>
 					</li>
 					<li>
-						<a href="#" class="navbar-menu-button">
-							<i class="material-icons">view_list</i>Kategorier</a>
+						<a href="#" class="navbar-menu-button">Kategorier</a>
 					</li>
 					<li>
-						<a href="#" class="navbar-menu-button">
-							<i class="material-icons">feedback</i>Tips</a>
+						<a href="#" class="navbar-menu-button">Tips</a>
+					</li>
+					<li>
+						<a class="navbar-menu-button nav-account">Konto</a>
+					</li>
+					<li>
+						<a href="#" class="navbar-menu-button">Hjälp</a>
 					</li>
 				</ul>
-				<ul class="navbar-menu">
-					<li>
-						<a href="#" id="log-in" class="navbar-menu-button">
-							<i class="material-icons">account_box</i>Logga in</a>
-					</li>
-					<li>
-						<a href="#" class="navbar-menu-button">
-							<i class="material-icons">help</i>Hjälp</a>
-					</li>
-				</ul>
+			</div>
+			<!--navbar-links-->
+			<div class="mobile-nav-search">
+				<input type="text" class="" maxlength="30" />
+				<a class="search-cancel">
+					<i class="material-icons">cancel</i>
+				</a>
 			</div>
 		</div>
 		<!--container-->
 	</nav>
 
 	<div class="main-content">
-		<div class="container">
-			<h2 class="extra-text">Sök bland ett<br>tiotal recept :(</h2>
-			<div class="search-bar">
-				<i class="material-icons">search</i>
-				<input type="text" class="" maxlength="30" placeholder="Sök efter recept" />
+		<div class="jumbotron">
+			<div class="container">
+				<div class="main-search">
+					<h2 class="extra-text">Sök bland ett <br> tiotal recept</h2>
+					<div class="search-bar">
+						<i class="material-icons">search</i>
+						<input type="text" class="" maxlength="30" placeholder="Sök efter recept" />
+					</div>
+				</div>
 			</div>
-			<div class="box-link">
-				ruta
+		</div>
+		<div class="container">
+			<div id="summer" class="box-link-wrapper">
+				<h2>Sommarsmaker</h2>
+				<a href="#" class="box-link">
+					<span>Köttbullar</span>
+				</a>
+				<a href="#" class="box-link">
+					<span>Pannkakor</span>
+				</a>
+				<a href="#" class="box-link">
+					<span>Kycklinggryta</span>
+				</a>
+			</div>
+			<div id="dessert" class="box-link-wrapper">
+				<h2>Dessert med bär</h2>
+				<a href="#" class="box-link">
+					<span>Köttbullar</span>
+				</a>
+				<a href="#" class="box-link">
+					<span>Pannkakor</span>
+				</a>
+				<a href="#" class="box-link">
+					<span>Kycklinggryta</span>
+				</a>
 			</div>
 		</div>
 	</div>
