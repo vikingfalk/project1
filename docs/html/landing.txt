@@ -1,0 +1,37 @@
+<div class="jumbotron">
+    <div class="container">
+        <div class="main-search">
+            <h2 class="extra-text">Sök bland ett <br> tiotal recept</h2>
+            <div class="search-bar">
+                <i class="material-icons">search</i>
+                <input type="text" class="" maxlength="30" placeholder="Sök efter recept" />
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div id="summer" class="box-link-wrapper">
+        <h2>Sommarsmaker</h2>
+        <a href="#" class="box-link">
+            <span>Köttbullar</span>
+        </a>
+        <a href="#" class="box-link">
+            <span>Pannkakor</span>
+        </a>
+        <a href="#" class="box-link">
+            <span>Kycklinggryta</span>
+        </a>
+    </div>
+    <div id="dessert" class="box-link-wrapper">
+        <h2>Dessert med bär</h2>
+        <a href="#" class="box-link">
+            <span>Köttbullar</span>
+        </a>
+        <a href="#" class="box-link">
+            <span>Pannkakor</span>
+        </a>
+        <a href="#" class="box-link">
+            <span>Kycklinggryta</span>
+        </a>
+    </div>
+</div>

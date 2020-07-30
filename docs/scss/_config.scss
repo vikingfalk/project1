@@ -1,0 +1,85 @@
+$primary-color: #333;
+$secondary-color: rgb(245, 245, 245);
+$dull-color: #999;
+$detail-color: #28ac28;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(240,240,240);
+    color: #444;
+    font-family: Oxygen, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.flex-wrap {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    cursor: pointer;
+}
+
+.box-link {
+    min-height: 18rem;
+    min-width: 18rem;
+    background-color: #000;
+    box-shadow: 0 0 10px rgba(0,0,0,.4);
+    border-radius: 5px;
+    position: relative;
+    margin: 0 2rem 3rem 2rem;
+    flex: 1;
+
+    &:hover {
+        box-shadow: 0 0 0 3px $detail-color;
+    }
+
+    span {
+        background-color: rgba(120,120,120,.8);
+        height: 3rem;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        color: $secondary-color;
+        font-size: 1.5rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px 5px 0 0;
+    }
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1500px) {
+    .container {
+        width: 60%;
+    }
+}
