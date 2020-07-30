@@ -18,7 +18,7 @@ fetch('https://vikingfalk.github.io/project1/html/landing.html')
     });
 
 catBtn.addEventListener('click', () => {
-    fetch('/html/categories.html')
+    fetch('https://vikingfalk.github.io/project1/html/categories.html')
         .then((res) => res.text())
         .then((data) => {
             document.querySelector('#content').innerHTML = data;
@@ -29,7 +29,7 @@ catBtn.addEventListener('click', () => {
 
 brands.forEach((brand) => {
     brand.addEventListener('click', () => {
-        fetch('/html/landing.html')
+        fetch('https://vikingfalk.github.io/project1/html/landing.html')
             .then((res) => res.text())
             .then((data) => {
                 document.querySelector('#content').innerHTML = data;
