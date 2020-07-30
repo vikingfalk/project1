@@ -11,14 +11,14 @@ const catBtn = document.querySelector('#categories-button');
 const brands = document.querySelectorAll('.brand');
 
 //ajax
-fetch('project1/html/landing.txt')
+fetch('/html/landing.html')
     .then((res) => res.text())
     .then((data) => {
         document.querySelector('#content').innerHTML = data;
     });
 
 catBtn.addEventListener('click', () => {
-    fetch('../html/categories.txt')
+    fetch('/html/categories.html')
         .then((res) => res.text())
         .then((data) => {
             document.querySelector('#content').innerHTML = data;
@@ -29,7 +29,7 @@ catBtn.addEventListener('click', () => {
 
 brands.forEach((brand) => {
     brand.addEventListener('click', () => {
-        fetch('../html/landing.txt')
+        fetch('/html/landing.html')
             .then((res) => res.text())
             .then((data) => {
                 document.querySelector('#content').innerHTML = data;
