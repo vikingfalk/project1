@@ -11,7 +11,7 @@ const catBtn = document.querySelector('#categories-button');
 const brands = document.querySelectorAll('.brand');
 
 //ajax
-fetch('../html/landing.txt')
+fetch('/html/landing.txt')
     .then((res) => res.text())
     .then((data) => {
         document.querySelector('#content').innerHTML = data;

@@ -25,13 +25,13 @@
     <div id="dessert" class="box-link-wrapper">
         <h2>Dessert med bär</h2>
         <a href="#" class="box-link">
-            <span>Köttbullar</span>
+            <span>Vaniljglass</span>
         </a>
         <a href="#" class="box-link">
-            <span>Pannkakor</span>
+            <span>Hallonpaj</span>
         </a>
         <a href="#" class="box-link">
-            <span>Kycklinggryta</span>
+            <span>Havreflarn</span>
         </a>
     </div>
 </div>
