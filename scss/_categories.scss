@@ -1,0 +1,56 @@
+.categories {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: grid;
+    grid-gap: 5rem;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+    .box-link {
+        width: 100%;
+        margin: 0;
+        justify-self: center;
+
+        &:nth-child(odd) {
+            background: url('../img/dish2.jpg');
+            background-size: cover;
+            background-position: center center;
+        }
+
+        &:nth-child(even) {
+            background: url('../img/dessert2.jpg');
+            background-size: cover;
+            background-position: center center;
+        }
+    }
+}
+
+#category-header {
+    font-size: 3rem;
+    margin-top: 10rem;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+    .categories {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .categories {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1500px) {
+    .categories {
+        width: 60%;
+    }
+}
