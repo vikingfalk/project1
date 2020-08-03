@@ -81,16 +81,6 @@
             width: 91%;
             right: 5vw;
         }
-
-        .search-cancel {
-            color: #777;
-            display: flex;
-            text-decoration: none;
-
-            &:visited {
-                color: #777;
-            }
-        }
     
         input {
             background-color: $secondary-color;
@@ -160,6 +150,7 @@
     .login-details {
         display: flex;
         flex-direction: column;
+        margin-bottom: 1.5rem;
 
         input {
             background-color: $secondary-color;
@@ -172,10 +163,6 @@
 
             &:first-child {
                 margin-bottom: 1rem;
-            }
-
-            &:last-child {
-                margin-bottom: 1.5rem;
             }
 
             &:focus {

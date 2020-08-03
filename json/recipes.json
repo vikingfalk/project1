@@ -1,0 +1,126 @@
+[
+    {
+        "name": "Sashimi",
+        "image": "../img/dish1.jpg",
+        "description": "Sashimi är rå fisk. Kanske lite ris till kan vara gott också, vad vet jag. Såsa på nån go sås så blire supergott sörru.",
+        "ingredients": [
+            "Fisk - 2 kg",
+            "Rödlök - 3 st",
+            "Ris - 2 st",
+            "Sås - 1 l"
+        ],
+        "instructions": [
+            "Skär fisken i små små bitar.",
+            "Skala löken och lägg på fisken.",
+            "Strö över riset.",
+            "Ös på med sås. Klart!"
+        ]
+    },
+    {
+        "name": "Biff",
+        "image": "../img/dish2.jpg",
+        "description": "Ät biff så blir du biff. Äh, skoja bara, men det är jättegott!",
+        "ingredients": [
+            "Ägg - 5 st",
+            "Mjöl - 3 dl",
+            "Mjölk - 1 dl"
+        ],
+        "instructions": [
+            "Blanda alla ingredienser i en stor skål.",
+            "Slå på spisen.",
+            "Stek tills det känns rätt.",
+            "Servera med pulvermos!"
+        ]
+    },
+    {
+        "name": "Kycklinggryta",
+        "image": "../img/dish3.jpg",
+        "description": "Vem gillar inte kyckling? Och för att inte tala om gryta! Blanda dessa två och du har inte riktig vinnare på middagsbordet.",
+        "ingredients": [
+            "Kyckling - en hel",
+            "Gryta - 3 dl"
+        ],
+        "instructions": [
+            "Blanda i kycklingen i grytan.",
+            "Koka på låg värme i ca. 20 minuter.",
+            "Vänta ett litet tag.",
+            "Låt grytan svalna innan servering."
+        ]
+    },
+    {
+        "name": "Sallad",
+        "image": "../img/dish4.jpg",
+        "description": "Denna sallad har allt du kan önska dig. God OCH nyttig, det blir inte bättre.",
+        "ingredients": [
+            "Sallad - 1 st",
+            "Tomat - 5 st",
+            "Gurka - 1 st",
+            "Lök - 1 st"
+        ],
+        "instructions": [
+            "Hacka allt i små bitar.",
+            "Blanda allt i en skål.",
+            "Ät."
+        ]
+    },
+    {
+        "name": "Brownie",
+        "image": "../img/dessert1.jpg",
+        "description": "En klassisk brownie. God att ha till kaffet.",
+        "ingredients": [
+            "Kakao - 1 tsk",
+            "Smör - 125 g",
+            "Socker - 2 dl"
+        ],
+        "instructions": [
+            "Blanda ihop i en bunke.",
+            "Häll ner i en form.",
+            "Bränn på i ugnen."
+        ]
+    },
+    {
+        "name": "Cheesecake",
+        "image": "../img/dessert2.jpg",
+        "description": "Cheesecake, icke att blandas ihop med ostkaka.",
+        "ingredients": [
+            "Färskost - 150 g",
+            "Smör - 125 g",
+            "Socker - 2 dl"
+        ],
+        "instructions": [
+            "Blanda ihop i en bunke.",
+            "Häll ner i en form.",
+            "Låt stå i kylen ett tag."
+        ]
+    },
+    {
+        "name": "Pannkakor",
+        "image": "../img/dessert3.jpg",
+        "description": "Pannkakor går alltid hem! Passar bra som middag såväl som efterrätt.",
+        "ingredients": [
+            "Ägg - 5 st",
+            "Mjöl - 4 dl",
+            "Mjölk - 5 dl"
+        ],
+        "instructions": [
+            "Blanda ihop alla ingredienser med elvisp.",
+            "Stek i en stekpanna.",
+            "Vänd några gånger.",
+            "Servera med sylt och grädde."
+        ]
+    },
+    {
+        "name": "Jordgubbsglass",
+        "image": "../img/dessert4.jpg",
+        "description": "Glass är gott. Speciellt jordgubbsglass.",
+        "ingredients": [
+            "Jordgubbar - 5 st",
+            "Grädde - 2 dl",
+            "Socker - 5 dl"
+        ],
+        "instructions": [
+            "Mosa jordgubbarna och blanda med resten av ingredienserna.",
+            "Ställ i frysen i några timmar"
+        ]
+    }
+]
