@@ -30,7 +30,7 @@ function loadRecipe(dish) {
                     output += `
                     <div class="container recipe-container">
                         <div class="recipe-card">
-                            <img src="${recipe.image}" alt="Dish image" />
+                            <img src="https://vikingfalk.github.io/project1/${recipe.image}" alt="Dish image" />
                             <section class="recipe-about">
                                 <h3>${recipe.name}</h3>
                                 <p>${recipe.description}</p>
