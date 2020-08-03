@@ -1,7 +1,7 @@
 [
     {
         "name": "Sashimi",
-        "image": "../img/dish1.jpg",
+        "image": "/img/dish1.jpg",
         "description": "Sashimi är rå fisk. Kanske lite ris till kan vara gott också, vad vet jag. Såsa på nån go sås så blire supergott sörru.",
         "ingredients": [
             "Fisk - 2 kg",
@@ -18,7 +18,7 @@
     },
     {
         "name": "Biff",
-        "image": "../img/dish2.jpg",
+        "image": "/img/dish2.jpg",
         "description": "Ät biff så blir du biff. Äh, skoja bara, men det är jättegott!",
         "ingredients": [
             "Ägg - 5 st",
@@ -34,7 +34,7 @@
     },
     {
         "name": "Kycklinggryta",
-        "image": "../img/dish3.jpg",
+        "image": "/img/dish3.jpg",
         "description": "Vem gillar inte kyckling? Och för att inte tala om gryta! Blanda dessa två och du har inte riktig vinnare på middagsbordet.",
         "ingredients": [
             "Kyckling - en hel",
@@ -49,7 +49,7 @@
     },
     {
         "name": "Sallad",
-        "image": "../img/dish4.jpg",
+        "image": "/img/dish4.jpg",
         "description": "Denna sallad har allt du kan önska dig. God OCH nyttig, det blir inte bättre.",
         "ingredients": [
             "Sallad - 1 st",
@@ -65,7 +65,7 @@
     },
     {
         "name": "Brownie",
-        "image": "../img/dessert1.jpg",
+        "image": "/img/dessert1.jpg",
         "description": "En klassisk brownie. God att ha till kaffet.",
         "ingredients": [
             "Kakao - 1 tsk",
@@ -80,7 +80,7 @@
     },
     {
         "name": "Cheesecake",
-        "image": "../img/dessert2.jpg",
+        "image": "/img/dessert2.jpg",
         "description": "Cheesecake, icke att blandas ihop med ostkaka.",
         "ingredients": [
             "Färskost - 150 g",
@@ -95,7 +95,7 @@
     },
     {
         "name": "Pannkakor",
-        "image": "../img/dessert3.jpg",
+        "image": "/img/dessert3.jpg",
         "description": "Pannkakor går alltid hem! Passar bra som middag såväl som efterrätt.",
         "ingredients": [
             "Ägg - 5 st",
@@ -111,7 +111,7 @@
     },
     {
         "name": "Jordgubbsglass",
-        "image": "../img/dessert4.jpg",
+        "image": "/img/dessert4.jpg",
         "description": "Glass är gott. Speciellt jordgubbsglass.",
         "ingredients": [
             "Jordgubbar - 5 st",

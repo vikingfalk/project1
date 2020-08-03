@@ -72,7 +72,7 @@ function createBoxLink(dish, container) {
                 if (dish === recipe.name) {
                     container.innerHTML += `
                     <a href="#" id="${recipe.name}" class="box-link">
-                        <div class="image" style="background: url('${recipe.image}');
+                        <div class="image" style="background: url('https://vikingfalk.github.io/project1/${recipe.image}');
                         background-size: cover;
                         background-position: center center;"></div>
                         <span>${recipe.name}</span>
